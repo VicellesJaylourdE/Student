@@ -1,0 +1,24 @@
+public class Student {
+    String name = "Jay Lourd E. Vicelles";
+    String section = "IT24C";
+    String motto = "You will not find a love that is perfect, but you will find a love that is real.";
+
+    public String getName() {
+        return name;
+    }
+    public String getSection() {
+
+        return section;
+    }
+    public String getMotto() {
+        return motto;
+    }
+    
+    public static void main(String[] args) {
+        Student studentJ = new Student();
+
+        System.out.println("Name: " + studentJ.getName());
+        System.out.println("Section: " + studentJ.getSection());
+        System.out.println("Motto: " + studentJ.getMotto());
+    }
+}
